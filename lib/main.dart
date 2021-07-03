@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:profile/views/profile/view.dart';
+import 'package:profile/views/workspace/view.dart';
 void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Profile(),
+        body: WorkSpace(),
       ),
     );
   }
