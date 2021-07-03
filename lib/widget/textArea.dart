@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-Widget textArea(){
+
+Widget textArea() {
   return Container(
     width: 50,
     height: 150,
@@ -8,12 +9,21 @@ Widget textArea(){
       maxLines: 5,
       keyboardType: TextInputType.name,
       decoration: InputDecoration(
+        focusedBorder: const OutlineInputBorder(
+          borderSide: const BorderSide(
+              color: Color.fromRGBO(106, 149, 165, 1), width: 2.0,
+              style: BorderStyle.solid
+          ),
+        ),
         hintText: 'Write Anything',
+        floatingLabelBehavior: FloatingLabelBehavior.always,
         hintStyle: TextStyle(
           color: Colors.grey,
         ),
-        border:
-        OutlineInputBorder(borderRadius: BorderRadius.circular(18)),
+        border: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(18),
+        ),
       ),
-    ),);
+    ),
+  );
 }

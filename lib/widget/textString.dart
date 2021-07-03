@@ -6,8 +6,10 @@ Widget textString( String label ,String hint,double height){
       child: TextField(
         decoration: InputDecoration(
           labelText: label,
-          labelStyle: TextStyle(color: Colors.black, fontSize: 22),
+          labelStyle: TextStyle(color: Colors.black, fontSize: 25),
           hintText: hint,
+          floatingLabelBehavior: FloatingLabelBehavior.always,
+
           hintStyle: TextStyle(
             height: height,
             color: Colors.grey,

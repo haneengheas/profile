@@ -7,7 +7,7 @@ Widget invite (String text){
           onPressed: () {},
           icon: Icon(
             Icons.add,
-            color: Colors.blueAccent,
+            color: Color.fromRGBO(106,149,165,1),
           )),
       Text(
         text,

@@ -25,8 +25,9 @@ class _TextDateState extends State<TextDate> {
         decoration: InputDecoration(
           //contentPadding: EdgeInsets.all(15),
           labelText: widget.label,
-          labelStyle: TextStyle(color: Colors.black, fontSize: 22),
+          labelStyle: TextStyle(color: Colors.black, fontSize: 25),
           hintText: 'pick up date',
+          floatingLabelBehavior: FloatingLabelBehavior.always,
           hintStyle: TextStyle(
             height: widget.height,
             color: Colors.grey,

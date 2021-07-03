@@ -45,7 +45,7 @@ class _TaskState extends State<Task> {
                 color: Colors.white,
                 fontSize: 30
             ),
-              backgroundColor: Colors.blueAccent,
+              backgroundColor: Color.fromRGBO(106,149,165,1),
               padding: EdgeInsets.only(left: 50,right: 50,top: 10,bottom: 10),
             ),
           )

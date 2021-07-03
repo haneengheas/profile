@@ -19,7 +19,7 @@ class _WorkSpaceState extends State<WorkSpace> {
         children: [
           customAppBar('Create workshop'),
           SizedBox(
-            height: 25,
+            height: 20,
           ),
           textString('Workspace Name', 'Enter Name WorkSpace',2.5),
           SizedBox(height: 20),
@@ -28,7 +28,7 @@ class _WorkSpaceState extends State<WorkSpace> {
             height: 2.5,
           ),
           SizedBox(
-            height: 25,
+            height: 20,
           ),
           Text(
             '   WorkSpace Description',
@@ -37,9 +37,11 @@ class _WorkSpaceState extends State<WorkSpace> {
           textArea(),
           invite('Invite Employee'),
           SizedBox(
-            height: 20,
+            height: 10,
           ),
-         Submit('Create')
+         Submit('  New  '),
+         SizedBox(height: 10,),
+         Submit('Create') ,
         ],
       ),
     );

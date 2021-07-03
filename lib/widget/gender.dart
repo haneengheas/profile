@@ -18,6 +18,7 @@ class _genderState extends State<gender> {
           ),),
         ),
         DropdownButton<String>(
+          hint: Text('male') ,
           value: dropdownValue,
           underline: Container(
             width: 30,
