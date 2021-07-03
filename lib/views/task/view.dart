@@ -22,9 +22,9 @@ class _TaskState extends State<Task> {
           SizedBox(
             height: 25,
           ),
-          textString('Task Name', 'Enter Task Name'),
+          textString('Task Name', 'Enter Task Name',2.5),
           SizedBox(height: 20),
-          TextDate(label: 'Due Date Task'),
+          TextDate(label: 'Due Date Task',height: 2.5,),
           SizedBox(
             height: 25,
           ),

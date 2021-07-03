@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 class TextDate extends StatefulWidget {
   final String label;
-  const TextDate({Key? key, required this.label}) : super(key: key);
+  final double height;
+  const TextDate({Key? key, required this.label,required this.height}) : super(key: key);
 
   @override
   _TextDateState createState() => _TextDateState();
@@ -27,7 +28,7 @@ class _TextDateState extends State<TextDate> {
           labelStyle: TextStyle(color: Colors.black, fontSize: 22),
           hintText: 'pick up date',
           hintStyle: TextStyle(
-            height: 2.5,
+            height: widget.height,
             color: Colors.grey,
           ),
           suffixIcon: IconButton(

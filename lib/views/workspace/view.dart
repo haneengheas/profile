@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:profile/views/task/view.dart';
 import 'package:profile/widget/customAppBar.dart';
 import 'package:profile/widget/invite.dart';
 import 'package:profile/widget/submit.dart';
@@ -22,10 +21,11 @@ class _WorkSpaceState extends State<WorkSpace> {
           SizedBox(
             height: 25,
           ),
-          textString('Workspace Name', 'Enter Name WorkSpace'),
+          textString('Workspace Name', 'Enter Name WorkSpace',2.5),
           SizedBox(height: 20),
           TextDate(
             label: 'Due Date Workspace',
+            height: 2.5,
           ),
           SizedBox(
             height: 25,

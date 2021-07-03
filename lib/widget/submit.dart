@@ -32,7 +32,7 @@ Widget submit (String text){
         fontSize: 30
     ),
       backgroundColor: Colors.blueAccent,
-      padding: EdgeInsets.only(left: 50,right: 50,top: 10,bottom: 10),
+      padding: EdgeInsets.only(left: 55,right: 50,top: 5,bottom: 5),
     ),
   );
 }
