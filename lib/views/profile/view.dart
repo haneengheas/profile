@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:profile/views/profile/department.dart';
-import 'package:profile/views/profile/gender.dart';
+import 'package:profile/widget/department.dart';
+import 'package:profile/widget/gender.dart';
 import 'package:profile/widget/customAppBar.dart';
 import 'package:profile/widget/submit.dart';
 import 'package:profile/widget/textDate.dart';
