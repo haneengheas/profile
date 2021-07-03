@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:profile/views/profile/view.dart';
 import 'package:profile/widget/customAppBar.dart';
 import 'package:profile/widget/invite.dart';
-import 'package:profile/widget/submit.dart';
 import 'package:profile/widget/textArea.dart';
 import 'package:profile/widget/textDate.dart';
 import 'package:profile/widget/textString.dart';
@@ -37,7 +37,18 @@ class _TaskState extends State<Task> {
           SizedBox(
             height: 20,
           ),
-          submit('Create'),
+          GestureDetector(
+            onTap: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context) => Profile()));
+            },
+            child: Chip(label: Text('Create'),labelStyle: TextStyle(
+                color: Colors.white,
+                fontSize: 30
+            ),
+              backgroundColor: Colors.blueAccent,
+              padding: EdgeInsets.only(left: 50,right: 50,top: 10,bottom: 10),
+            ),
+          )
 
 
         ],
